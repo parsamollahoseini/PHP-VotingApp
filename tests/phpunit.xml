@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd"
+		          bootstrap="../../assignment2/vendor/autoload.php"
+				           colors="true"
+						            convertErrorsToExceptions="true"
+									         convertNoticesToExceptions="true"
+											          convertWarningsToExceptions="true"
+													           stopOnFailure="false">
+															       <coverage/>
+																       <testsuites>
+																	           <testsuite name="VotingAppTestSuite">
+																			               <file>VotingAppTest.php</file>
+																									           </testsuite>
+																											       </testsuites>
+																												       <logging>
+																													           <testdoxHtml outputFile="output.html"/>
+																															       </logging>
+																																   </phpunit>
