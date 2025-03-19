@@ -1,0 +1,43 @@
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP files
+vendor/
+composer.lock
+app.log
+
+# Environment and configuration
+.env
+db.config.php
+
+# Dependency directories
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Cache and temporary files
+*.tmp
+*.cache
+*.bak
+*.swp
+*~
+
+# Testing related
+tests/output.html
+phpunit.result.cache
+clover.xml
+
+# Miscellaneous
+.htaccess.local
+/logs/
+/coverage/
